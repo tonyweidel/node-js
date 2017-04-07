@@ -1,0 +1,38 @@
+header,footer{
+    height: 15%;
+    width: inherit;
+    background-color: black;
+}
+#banner{
+    height: 25%;
+    width: inherit;
+    border: solid green 5px;
+}
+#main{
+    height: 60%;
+    width: 100%;
+}
+p{
+    font-size: 24px;
+    margin: 15px;
+}
+#banner div{
+    width: 100%;
+    height: auto;
+}
+#banner div img{
+    width: inherit;
+}
+#logo div{
+  width: 100%;
+  height: auto;
+}
+#logo div img{
+  width: auto;
+  height: 50%;
+}
+#nav div{
+  font-size: 18px;
+  margin: auto
+
+}
