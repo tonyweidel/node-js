@@ -1,7 +1,7 @@
 header,footer{
-    height: 15%;
-    width: inherit;
-    background-color: black;
+    height: 80px;
+    width: 1366px;
+    background-color: #333;
 }
 #banner{
     height: 25%;
@@ -12,24 +12,32 @@ header,footer{
     height: 60%;
     width: 100%;
 }
+#navtab{
+  height: 24px;
+  width: 70%
+  margin: auto;
+  background: #333
+}
 p{
     font-size: 24px;
     margin: 15px;
 }
 #banner div{
     width: 100%;
-    height: auto;
+    height: inherit;
 }
 #banner div img{
     width: inherit;
+    height: inherit;
 }
-#logo div{
+header div{
   width: 100%;
-  height: auto;
+  height: inherit;
+  margin: auto;
 }
-#logo div img{
-  width: auto;
-  height: 50%;
+header div img{
+  width: inherit;
+  height: inherit;
 }
 #nav div{
   font-size: 18px;
