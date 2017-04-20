@@ -1,22 +1,17 @@
 header,footer{
     height: 80px;
-    width: 1366px;
+    width: 1350px;
     background-color: #333;
 }
 #banner{
-    height: 25%;
-    width: inherit;
-    border: solid green 5px;
+    height: 300px;
+    width: 100%;
+    border: solid white 5px;
+    margin: auto;
 }
 #main{
     height: 60%;
     width: 100%;
-}
-#navtab{
-  height: 24px;
-  width: 70%
-  margin: auto;
-  background: #333
 }
 p{
     font-size: 24px;
@@ -24,7 +19,7 @@ p{
 }
 #banner div{
     width: 100%;
-    height: inherit;
+    height: 75px;
 }
 #banner div img{
     width: inherit;
@@ -42,5 +37,10 @@ header div img{
 #nav div{
   font-size: 18px;
   margin: auto
-
+}
+#navtab{
+  height: 24px;
+  width: 100%;
+  margin: auto;
+  background-color: #333
 }
