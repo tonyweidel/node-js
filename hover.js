@@ -1,9 +1,9 @@
 function(){
   const doc = document;
   let div = doc.queryselector("div");
-  div.AddEventListener("click",function(){
+  div.AddEventListener("mouseOver",function(){
     if(div.className=="banner"){
-      div.style.border = solid green;
+      div.style.border = '5px' solid green;
     }
   })
 }
